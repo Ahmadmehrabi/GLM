@@ -1,3 +1,11 @@
+# Posterior distribution and evidence in the GLM method
+#Parameters 
+# data set as, (x_obs_y_obs,y_obs_err), length of all vector should be the same
+# 
+#
+#
+#
+
 
 import numpy as np
 
