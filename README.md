@@ -13,15 +13,21 @@ fun_list: list of callable functions. The number of functions should be the same
 
 ## Methods:
 
-max_likelihood(): Return the best value of parameters to maximize the likeliood function.
+max_likelihood():
 
-post_dist(pri_mean,pri_cov): given prior information, the method gives the posterior mean and covariance matrix 
+Return the best value of parameters to maximize the likeliood function.
+
+post_dist(pri_mean,pri_cov):
+
+given prior information, the method gives the posterior mean and covariance matrix 
 
                               pri_mean: mean of prior on the parameter.
                               
                               pri_cov: covariance matrix of prior on the parameter.
 
-evidenc(pri_mean,pri_cov): given prior information, the method gives the ln(evidenc)
+evidenc(pri_mean,pri_cov):
+
+given prior information, the method gives the ln(evidenc)
 
                               pri_mean: mean of prior on the parameter.
                               
