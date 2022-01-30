@@ -1,10 +1,23 @@
-# Posterior distribution and evidence in the GLM method
-#Parameters 
-# data set as, (x_obs_y_obs,y_obs_err), length of all vector should be the same
-# 
-#
-#
-#
+# Main class for applying GLM method
+
+# Arguments
+# Database should be given as (x_obs,y_obs,y_obs_err) 
+# n_par: number of free parameres
+#fun_list: list of callable functions. The number of functions should be same as number of parameters
+
+# Methods:
+
+# max_likelihood(): Return the best value of parameters to maximize the likeliood function
+
+# post_dist(pri_mean,pri_cov): given prior information, the method gives the posterior mean and covariance matrix 
+#                              pri_mean: mean of prior on the parameter.
+#                              pri_cov: covariance matrix of prior on the parameter.
+
+# evidenc(pri_mean,pri_cov): given prior information, the method gives the ln(evidenc)
+#                              pri_mean: mean of prior on the parameter.
+#                              pri_cov: covariance matrix of prior on the parameter.
+
+
 
 
 import numpy as np
