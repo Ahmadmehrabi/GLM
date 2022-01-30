@@ -6,6 +6,7 @@
 ## Arguments:
 
 Database should be given as (x_obs,y_obs,y_obs_err) 
+
 n_par: number of free parameres
 fun_list: list of callable functions. The number of functions should be same as the number of parameters
 
